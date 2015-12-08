@@ -11,8 +11,8 @@ Example
     ${result} =         Run Process     echo    "foo" 
     Should Contain          ${result.stdout}        foo
 
-python_template Main
-    ${result} =         Run Process     python_template         
+sequence_database Main
+    ${result} =         Run Process     sequence_database         
     # Check system exited  correctly
     Should Be Equal As Integers         ${result.rc}        0 
     # Check output

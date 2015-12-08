@@ -1,14 +1,14 @@
-python_template
+sequence_database
 ===============
 .. image:: https://readthedocs.org/projects/python-template/badge/?version=latest
     :target: http://python-template.readthedocs.org/en/latest/
     :alt: Documentation Status
 
-.. image:: https://travis-ci.org/VDBWRAIR/python_template.svg
-    :target: https://travis-ci.org/VDBWRAIR/python_template
+.. image:: https://travis-ci.org/VDBWRAIR/sequence_database.svg
+    :target: https://travis-ci.org/VDBWRAIR/sequence_database
 
-.. image:: https://coveralls.io/repos/VDBWRAIR/python_template/badge.svg
-    :target: https://coveralls.io/r/VDBWRAIR/python_template
+.. image:: https://coveralls.io/repos/VDBWRAIR/sequence_database/badge.svg
+    :target: https://coveralls.io/r/VDBWRAIR/sequence_database
 
 
 This is the template for WRAIR python projects that will help you quickly setup
@@ -33,13 +33,13 @@ How To Use
 #. Rename the directory to your project name
 #. Modify the git origin remote so it points to your new project's github 
    project
-#. Anywhere you see python_template you will need to rename that to your
+#. Anywhere you see sequence_database you will need to rename that to your
    project name.
-   The following should work to rename all python_template to your_project
+   The following should work to rename all sequence_database to sequence_database
 
     .. code-block:: bash
 
-        find . -path ./.git -prune -o -type f -exec sed -i 's/python_template/your_project/g' {} \;
+        find . -path ./.git -prune -o -type f -exec sed -i 's/sequence_database/sequence_database/g' {} \;
 
 Travis CI
 ---------
